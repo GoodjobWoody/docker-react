@@ -13,10 +13,10 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "us-west-2"
-  app: "woodydocker"
-  env: "Woodydocker-env"
+  app: "woodydocker_2"
+  env: "Woodydocker_2-env"
   bucket_name: "elasticbeanstalk-us-west-2-255107891704"
-  bucket_path: "woodydocker"
+  bucket_path: "woodydocker_2"
   on:
     branch: master
   access_key_id: $aws_access_key
