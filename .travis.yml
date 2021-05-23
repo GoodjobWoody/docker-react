@@ -14,7 +14,7 @@ deploy:
   provider: elasticbeanstalk
   region: "us-west-2"
   app: "woodydocker_2"
-  env: "Woodydocker_2-env"
+  env: "Woodydocker2-env"
   bucket_name: "elasticbeanstalk-us-west-2-255107891704"
   bucket_path: "woodydocker_2"
   on:
